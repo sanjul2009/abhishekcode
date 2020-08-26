@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1169
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRuleEngine", "BusinessRuleEngine\BusinessRuleEngine.csproj", "{505A6BCB-8E09-4A8E-90AB-5C6CBD8079F5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessRuleEngine.Tests", "BusinessRuleEngine.Tests\BusinessRuleEngine.Tests.csproj", "{2149D9E8-9486-4D0E-A662-940D1828D235}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{505A6BCB-8E09-4A8E-90AB-5C6CBD8079F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{505A6BCB-8E09-4A8E-90AB-5C6CBD8079F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{505A6BCB-8E09-4A8E-90AB-5C6CBD8079F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{505A6BCB-8E09-4A8E-90AB-5C6CBD8079F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2149D9E8-9486-4D0E-A662-940D1828D235}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2149D9E8-9486-4D0E-A662-940D1828D235}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2149D9E8-9486-4D0E-A662-940D1828D235}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2149D9E8-9486-4D0E-A662-940D1828D235}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9AD14F19-7D31-43A7-B788-DE429F44E97A}
+	EndGlobalSection
+EndGlobal

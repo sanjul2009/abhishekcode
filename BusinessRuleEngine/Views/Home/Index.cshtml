@@ -1,0 +1,42 @@
+﻿@using BusinessRuleEngine.Models;
+@{
+    ViewBag.Title = "Home Page";
+}
+@model EngineModel
+<div class="jumbotron">
+    <h1>Rule Engine - Administration Portal</h1>
+    <p class="lead"></p>
+</div>
+
+<div class="row">
+    @using (Html.BeginForm("Payment", "Home", null))
+    {
+        <div class="col-md-4">
+            @Html.DropDownListFor(m => m.RuleType, Model.RuleTypeLoopUpList, "- Please select -", new { @class = "form-control" })
+
+        </div>
+        <div class="col-md-4">
+            @Html.TextBoxFor(m => m.VideoName)
+
+        </div>
+        <div class="col-md-4">
+            <p>
+                <input type="submit" class="btn btn-primary btn-lg" value="Pay" />
+            </p>
+        </div>
+    }
+</div>
+<script>
+    $(document).ready(function () {
+        $("#VideoName").hide();
+        $('select#RuleType').on('change', function () {
+            if (this.value == '5')
+            {
+                $("#VideoName").show();
+            }
+            else {
+                $("#VideoName").hide();
+            }
+        });
+    });
+</script>

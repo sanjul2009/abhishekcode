@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs
+/BusinessRuleEngine/bin
+/BusinessRuleEngine.Tests/obj/Debug
+/packages
+/BusinessRuleEngine/obj/Debug
+/BusinessRuleEngine/BusinessRuleEngine.csproj.user
